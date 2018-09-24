@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/TimeWarriors/TimeLamp#readme",
   "dependencies": {
-    "asyncawait": "^1.0.3",
     "body-parser": "^1.15.0",
     "co": "^4.6.0",
     "events": "^1.1.0",

@@ -1,8 +1,6 @@
 'use strict';
 
 
-require('./slackClient/app.js');
-
 const ModuleLoader = require('./mouduleLoader/moduleLoader.js');
 const nodeSchedule = require('./nodeSchdule/nodeSchedule.js');
 const eventEmitter = require('./eventEmitter/eventEmitter.js');
@@ -12,9 +10,6 @@ const TimeeditDAL = require('./timeeditDAL/timeeditDAL.js');
 
 const lightHandler = new LightHandler();
 const emitter = eventEmitter.getEventEmitter();
-
-/*const SlackAPI = require('./SlackReader/SlackAPI/SlackAPI.js');
-const slackAPI = new SlackAPI(emitter);*/
 
 
 /*functions to sent to all modules*/
